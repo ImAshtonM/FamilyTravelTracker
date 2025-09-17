@@ -21,6 +21,7 @@ let currentUserId = 1;
 let message = "Enter country name";
 let errorMessage = "";
 
+// Users has hardcoded people via coursework - left for when PostgreSQL database is not connected
 let users = [
   { id: 1, name: "Angela", color: "teal" },
   { id: 2, name: "Jack", color: "powderblue" },
